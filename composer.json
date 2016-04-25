@@ -16,11 +16,18 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
         "bower-asset/admin-lte": "*"
     },
     "autoload": {
         "psr-4": {
             "memclutter\\AdminLTE\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
         }
     }
 }
