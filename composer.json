@@ -1,0 +1,26 @@
+{
+    "name": "memclutter/yii2-admin-lte",
+    "type": "yii2-extension",
+    "description": "Yii2 love admin lte",
+    "keywords": ["yii2", "admin", "dashboard"],
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/memclutter/yii2-admin-lte/issues",
+        "source": "https://github.com/memclutter/yii2-admin-lte"
+    },
+    "authors": [
+        {
+            "name": "Memory Clutter",
+            "email": "memclutter@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/admin-lte": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "memclutter\\AdminLTE\\": ""
+        }
+    }
+}
