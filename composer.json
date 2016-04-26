@@ -17,6 +17,7 @@
     "require": {
         "yiisoft/yii2": "*",
         "yiisoft/yii2-bootstrap": "*",
+        "memclutter/yii2-icheck": "dev-master",
         "bower-asset/admin-lte": "*"
     },
     "autoload": {

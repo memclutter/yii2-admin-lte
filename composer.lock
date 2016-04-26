@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f5fa0acd213a947f5421b2435e507492",
-    "content-hash": "c76011ec4a56139fb0bd6f91273d8616",
+    "hash": "a33c07d4d0cd80731bbd3e43c1b06600",
+    "content-hash": "e6030ced4b9f8b8486a573de4f6d03ca",
     "packages": [
         {
             "name": "bower-asset/admin-lte",
@@ -100,6 +100,56 @@
                 "mobile-first",
                 "responsive",
                 "web"
+            ]
+        },
+        {
+            "name": "bower-asset/icheck",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fronteed/icheck.git",
+                "reference": "8a6eb37bd7dab1e843c1b630c91c6398ff409d05"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fronteed/icheck/zipball/8a6eb37bd7dab1e843c1b630c91c6398ff409d05",
+                "reference": "8a6eb37bd7dab1e843c1b630c91c6398ff409d05",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.7"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "./icheck.min.js"
+                ],
+                "bower-asset-ignore": [
+                    ".gitignore",
+                    "CHANGELOG.md",
+                    "README.md",
+                    "demo/"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Highly customizable checkboxes and radio buttons (jQuery & Zepto)",
+            "keywords": [
+                "accessibility",
+                "checkbox",
+                "checked",
+                "custom",
+                "disabled",
+                "field",
+                "form",
+                "icheck",
+                "indeterminate",
+                "input",
+                "radio",
+                "replacement",
+                "skins",
+                "ui"
             ]
         },
         {
@@ -346,6 +396,54 @@
             "time": "2013-11-30 08:25:19"
         },
         {
+            "name": "memclutter/yii2-icheck",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/memclutter/yii2-icheck.git",
+                "reference": "6e705b782a8a2c53ea239f9a6e51dd2188d10b2e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/memclutter/yii2-icheck/zipball/6e705b782a8a2c53ea239f9a6e51dd2188d10b2e",
+                "reference": "6e705b782a8a2c53ea239f9a6e51dd2188d10b2e",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/icheck": "*",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "asset-installer-paths": {
+                    "npm-asset-library": "vendor/npm",
+                    "bower-asset-library": "vendor/bower"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "memclutter\\ICheck\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Memory Clutter",
+                    "email": "memclutter@gmail.com"
+                }
+            ],
+            "description": "Yii2 icheck plugin integration",
+            "keywords": [
+                "JS",
+                "checkbox",
+                "yii2"
+            ],
+            "time": "2016-04-26 07:15:10"
+        },
+        {
             "name": "yiisoft/yii2",
             "version": "2.0.7",
             "source": {
@@ -540,7 +638,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "memclutter/yii2-icheck": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
