@@ -10,6 +10,7 @@ class AdminLTELoginAsset extends AssetBundle
     public static $iCheckSkin;
 
     public $depends = [
+        'memclutter\AdminLTE\AdminLTEAsset',
         'memclutter\ICheck\ICheckAsset',
     ];
 
