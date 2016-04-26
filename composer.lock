@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f19df215ea4aa88f01282a076f6a3904",
-    "content-hash": "6609199636bed1019edabf40b427b3dc",
+    "hash": "245e88a280cd0e6995bddd227b50e393",
+    "content-hash": "799a3c6c5f0cfb69c304a755bfbba627",
     "packages": [
         {
             "name": "bower-asset/admin-lte",
@@ -352,6 +352,49 @@
             "time": "2015-03-06 05:28:07"
         },
         {
+            "name": "cebe/yii2-gravatar",
+            "version": "1.1",
+            "target-dir": "cebe/gravatar",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cebe/yii2-gravatar.git",
+                "reference": "c9c01bd14c9bdee9e5ae1ef1aad23f80c182c057"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cebe/yii2-gravatar/zipball/c9c01bd14c9bdee9e5ae1ef1aad23f80c182c057",
+                "reference": "c9c01bd14c9bdee9e5ae1ef1aad23f80c182c057",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-0": {
+                    "cebe\\gravatar\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc",
+                    "homepage": "http://cebe.cc/",
+                    "role": "Core framework development"
+                }
+            ],
+            "description": "Gravatar Widget for Yii 2",
+            "keywords": [
+                "gravatar",
+                "yii"
+            ],
+            "time": "2013-12-10 17:49:58"
+        },
+        {
             "name": "ezyang/htmlpurifier",
             "version": "v4.6.0",
             "source": {
@@ -401,12 +444,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/memclutter/yii2-icheck.git",
-                "reference": "6e705b782a8a2c53ea239f9a6e51dd2188d10b2e"
+                "reference": "aa70eb27b56bf89f8af2f67423e4c864162d6523"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/memclutter/yii2-icheck/zipball/6e705b782a8a2c53ea239f9a6e51dd2188d10b2e",
-                "reference": "6e705b782a8a2c53ea239f9a6e51dd2188d10b2e",
+                "url": "https://api.github.com/repos/memclutter/yii2-icheck/zipball/aa70eb27b56bf89f8af2f67423e4c864162d6523",
+                "reference": "aa70eb27b56bf89f8af2f67423e4c864162d6523",
                 "shasum": ""
             },
             "require": {
@@ -441,7 +484,7 @@
                 "checkbox",
                 "yii2"
             ],
-            "time": "2016-04-26 07:15:10"
+            "time": "2016-04-26 08:27:36"
         },
         {
             "name": "yiisoft/yii2",

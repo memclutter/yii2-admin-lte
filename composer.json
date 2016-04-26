@@ -18,6 +18,7 @@
     "require": {
         "yiisoft/yii2": "*",
         "yiisoft/yii2-bootstrap": "*",
+        "cebe/yii2-gravatar": "*",
         "memclutter/yii2-icheck": "dev-master",
         "bower-asset/admin-lte": "*"
     },
