@@ -63,6 +63,6 @@ class GravatarSidebarUserPanel extends SidebarUserPanel
 
     protected function getEmail()
     {
-        return $this->model->getAttributeLabel($this->emailAttribute);
+        return $this->model->getAttribute($this->emailAttribute);
     }
 }
