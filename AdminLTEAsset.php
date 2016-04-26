@@ -41,7 +41,7 @@ class AdminLTEAsset extends AssetBundle
         ];
 
         if (!empty(self::$skin)) {
-            $cssSkin = YII_DEBUG ? ('css/' . self::$skin . '.css') : ('css/' . self::$skin . '.min.css');
+            $cssSkin = YII_DEBUG ? ('css/skins/' . self::$skin . '.css') : ('css/skins/' . self::$skin . '.min.css');
             $this->css[] = [$cssSkin];
         }
 
