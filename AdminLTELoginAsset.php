@@ -23,4 +23,13 @@ class AdminLTELoginAsset extends AssetBundle
 
         ICheckAsset::$skin = self::$iCheckSkin;
     }
+
+    /**
+     * @inheritdoc
+     */
+    public function registerAssetFiles($view)
+    {
+        parent::registerAssetFiles($view);
+        $view->registerJs('$("input").iCheck();');
+    }
 }
