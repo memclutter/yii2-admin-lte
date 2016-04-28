@@ -35,7 +35,7 @@ class InfoBox extends Widget
 
     public function run()
     {
-        $fa = Html::tag('i', '', ['class' => 'fa fa-' . $this->icon . '"></i>']);
+        $fa = Html::tag('i', '', ['class' => 'fa fa-' . $this->icon]);
         $icon = Html::tag('span', $fa, ['class' => 'info-box-icon ' . $this->iconBg]);
         $text = Html::tag('span', $this->text, ['class' => 'info-box-text']);
         $number = Html::tag('span', $this->number, ['class' => 'info-box-number']);
