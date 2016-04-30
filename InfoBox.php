@@ -28,7 +28,7 @@ class InfoBox extends Widget
             throw new InvalidValueException('Missing info box icon');
         }
 
-        if (empty($this->text) || empty($this->number)) {
+        if (empty($this->text) && empty($this->number)) {
             throw new InvalidValueException('Missing info box content');
         }
     }
